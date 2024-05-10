@@ -29,13 +29,13 @@ const Stocks = () => {
                             {Stocksarr.map((obj, index) => {
                                 return (
                                     <div data-aos="zoom-in" className=' col-lg-4  col-sm-6 mt-4'>
-                                        <div className=' bg-white h-100 br_16 p-3 d-flex min_h_228 flex-column justify-content-between'>
+                                        <div className=' bg-white card-stock h-100 br_16 p-3 d-flex min_h_228 flex-column justify-content-between'>
                                             <div className=' d-flex flex-column'>
                                                 <p className=' ff-inter fw-bold fs-sm mb-2 color-black1'>{obj.title}</p>
                                                 <p className=' ff-inter fw-normal m-0 fs-sm lh-25 color-black2'>{obj.description}</p>
                                             </div>
                                             <div className=' d-flex align-items-center justify-content-between'>
-                                                <a href="#" className=' color_grednt fw-bold fs-sm lh-24'>Read More</a>
+                                                <a href="#" className=' color_grednt readmore_line fw-bold fs-sm lh-24'>Read More</a>
                                                 <img src={obj.img} alt="img-logos" className=' max_w_111' />
                                             </div>
                                         </div>
