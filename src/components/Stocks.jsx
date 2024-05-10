@@ -5,7 +5,7 @@ const Stocks = () => {
     return (
         <>
             <section className=' px-md-3 pb-5 mb-lg-5'>
-                <div className=' trending_container py-5 mb-5'>
+                <div className=' trending_container mx-auto py-5 mb-5'>
                     <h2 data-aos="zoom-in" className=' fs-xl fw-bold text-white ff-inter text-center mb-5 lh-57'>Top 7 AI Stocks</h2>
                     <div className="container-lg max-w-container">
                         <div data-aos="fade-up" className=' nvidia_card w-100 bg-white br_16 p-3'>
