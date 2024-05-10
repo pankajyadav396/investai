@@ -7,7 +7,7 @@ const Stocks = () => {
             <section className=' px-md-3 pb-5 mb-lg-5'>
                 <div className=' trending_container mx-auto py-5 mb-5'>
                     <h2 data-aos="zoom-in" className=' fs-xl fw-bold text-white ff-inter text-center mb-5 lh-57'>Top 7 AI Stocks</h2>
-                    <div className="container-lg max-w-container">
+                    <div className="container-lg max-w-container mb-5 pb-4">
                         <div data-aos="fade-up" className=' nvidia_card w-100 bg-white br_16 p-3'>
                             <div className=' row justify-content-between'>
                                 <div className="col-lg-6 col-md-7">
@@ -25,7 +25,7 @@ const Stocks = () => {
                             </div>
                         </div>
 
-                        <div className="row">
+                        <div className="row pb-2">
                             {Stocksarr.map((obj, index) => {
                                 return (
                                     <div data-aos="zoom-in" className=' col-lg-4  col-sm-6 mt-4'>
