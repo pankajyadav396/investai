@@ -8,7 +8,7 @@ const Nvidia = () => {
         <>
             <section className=' py-md-5 py-sm-1 px-1 px-sm-0'>
                 <div className=' container-md max-w-container pt-5 my-md-4'>
-                    <h1 data-aos="fade-up" className=' color-black1 fs-xl ff-inter mb-1 text-center fw-bold lh-57'>Why Invest in Nvidia Stock</h1>
+                    <h1 data-aos="fade-up" className=' color-black1 fs-xl ff-inter mb-1 mt-2 text-center fw-bold lh-57'>Why Invest in Nvidia Stock</h1>
                     <div className='row py-md-5 py-4 mt-2 justify-content-center'>
                         <div data-aos="fade-up" className="col_xlg_4 col-md-6 col-sm-9">
                             <div className=' card1_sec1 d-flex flex-column justify-content-between h-100'>
