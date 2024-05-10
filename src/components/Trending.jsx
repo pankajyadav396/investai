@@ -7,7 +7,7 @@ const Trending = () => {
             <section className=' py-5 px-md-3'>
                 <div className=' pt-lg-5 pt-4 pb-5  container trending_container'>
                     <div className=' d-flex flex-column flex-sm-row pt-4 mt-2 align-items-center pb-2 justify-content-center'>
-                        <h2 data-aos="zoom-in" className=' text-white pb-2 pb-sm-0 m-0 fs-xl fw-bold ff-inter'>Trending about</h2>
+                        <h2 data-aos="fade-up" className=' text-white pb-2 pb-sm-0 m-0 fs-xl fw-bold ff-inter'>Trending about</h2>
                         <span>< img data-aos="fade-up" src={logo} alt="logo" className='max_w_logo' /></span>
                     </div>
                     <div className=' max-w-container mx-auto mb-lg-3'>
