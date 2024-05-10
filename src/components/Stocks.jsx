@@ -15,7 +15,7 @@ const Stocks = () => {
                                     <p className=' fs-sm color-black2 text-center text-md-start fw-normal ff-inter lh-25 pb-4 mb-md-3 mb-0 '>NVIDIA Corporation, a powerhouse in GPU technology and AI innovation, offers investors compelling opportunities. With dominance in gaming and data center markets, </p>
                                     <div className='btn_stocks mx-auto mt-md-2 mx-md-0'>
                                         <div className='bg_btn_stock'>
-                                            <button className=' btn-read' >Read More</button>
+                                            <button className=' btn-read fw-bold ff-inter' >Read More</button>
                                         </div>
                                     </div>
                                 </div>
