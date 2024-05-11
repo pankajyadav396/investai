@@ -30,7 +30,7 @@ const Nvidia = () => {
                             </div>
                         </div>
                     </div>
-                    <div data-aos="fade-up" className=' d-flex justify-content-center align-items-center gap-3 pt-2 mt-1'>
+                    <div data-aos="fade-up" className=' d-flex justify-content-center align-items-center gap-3 pb-3 pt-2 mt-1'>
                         <p className=' color-black1 ff-inter fw-normal fs-md lh-25 m-0 me-2 '>and a 100s of reasons</p>
                         <Primarybutton text="Invest Now" />
                     </div>
