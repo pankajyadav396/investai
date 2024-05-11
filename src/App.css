@@ -56,6 +56,7 @@
 .trending_container {
   background: linear-gradient(294.21deg, #034BDA 4.27%, #33A8FF 73.84%);
   border-radius: 34px;
+  box-shadow: 0px 38px 0px -9px #E8F1FD;
 }
 
 .max_w_logo {
@@ -71,7 +72,7 @@
   background: linear-gradient(339.33deg, #034BDA -10.93%, #33A8FF 73.55%);
   min-height: 274px;
   padding-bottom: 80px;
-  border-radius: 24px;
+  border-radius: 12px;
 }
 
 .img_men {
@@ -85,18 +86,14 @@
 
 .img_graph {
   max-width: 474px;
+  position: relative !important;
+  transform: translate(-50%);
+  left: 50%;
+  bottom: 90px;
 }
 
 .max_w_946 {
   max-width: 946px;
-}
-
-.min_h_558 {
-  min-height: 558px;
-}
-
-.mb_undrbox {
-  margin-bottom: 50px;
 }
 
 .btn-read {
@@ -127,8 +124,8 @@
   border-radius: 58px;
 }
 
-.max_w_355 {
-  max-width: 355px;
+.img_nvidia {
+  max-width: 155px;
 }
 
 .min_h_228 {
@@ -213,6 +210,10 @@
     max-width: 290px;
   }
 
+  .img_nvidia {
+    max-width: 255px;
+  }
+
   .mb_undrbox {
     margin-bottom: 100px;
   }
@@ -245,14 +246,24 @@
   .lh-57 {
     line-height: 57.2px;
   }
+
+  .img_graph {
+    position: absolute !important;
+    bottom: -60px;
+  }
+
+  .box-understd {
+    border-radius: 24px;
+  }
+
+  .min_h_558 {
+    min-height: 558px;
+  }
 }
 
-@media (min-width:576px) {
-  .img_graph {
-    bottom: -60px;
-    position: absolute;
-    transform: translate(-50%);
-    left: 50%;
+@media (min-width:768px) {
+  .img_nvidia {
+    max-width: 355px;
   }
 }
 

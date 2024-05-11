@@ -7,8 +7,8 @@ import Primarybutton from './common/Primarybutton'
 const Understd = () => {
     return (
         <>
-            <section className=' pt-md-5 pb-3 mt-md-5 mt-3 mb-md-5'>
-                <div className=' max-w-container container-lg pt-lg-5 pb-lg-5 mb-5'>
+            <section className=' pt-md-5 pb-3 my-md-5'>
+                <div className=' max-w-container container-lg py-md-5 pt-3 pb-5 mb-md-5 md-3'>
                     <h1 className=' color-black1 fs-xl ff-inter text-center fw-bold lh-57 max_w_946 mx-auto'>Understanding Leveraged Accounts and Buying Power</h1>
                     <p className=' color-black2 fs-sm fw-normal lh-25 mb-5 text-center ff-inter max_w_946 mx-auto'>Trading with leveraged accounts in CFDs provides traders with increased buying power, enabling them to attain superior results across various markets. By amplifying potential returns and accessing additional capital, traders can capitalize on market opportunities more effectively, enhancing their overall trading performance.</p>
                     <div className=' row justify-content-center'>

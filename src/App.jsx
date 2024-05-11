@@ -4,7 +4,7 @@ import Nvidia from './components/Nvidia';
 import Trending from './components/Trending';
 import Understd from './components/Understd';
 import Stocks from './components/Stocks';
-import logo from '../src/assets/images/png/nvidiaImg.png'
+import logo from '../src/assets/images/webp/nvidiaImg.webp'
 import { useState, useEffect } from 'react';
 import Backtotop from './components/Backtotop';
 import Aos from 'aos';
