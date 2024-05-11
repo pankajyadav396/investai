@@ -1,4 +1,4 @@
-import nvidia from '../assets/images/png/nvidiaImg.png'
+import nvidia from '../assets/images/webp/nvidiaImg.webp'
 import { Stocksarr } from './common/Helper'
 
 const Stocks = () => {
@@ -24,11 +24,10 @@ const Stocks = () => {
                                 </div>
                             </div>
                         </div>
-
                         <div className="row pb-2">
                             {Stocksarr.map((obj, index) => {
                                 return (
-                                    <div data-aos="zoom-in" className=' col-lg-4  col-sm-6 mt-4'>
+                                    <div data-aos="zoom-in" className='col-lg-4 col-sm-6 mt-4'>
                                         <div className=' bg-white card-stock h-100 br_16 p-3 d-flex min_h_228 flex-column justify-content-between'>
                                             <div className=' d-flex flex-column'>
                                                 <p className=' ff-inter fw-bold fs-sm mb-2 color-black1'>{obj.title}</p>

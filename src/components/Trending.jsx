@@ -1,5 +1,5 @@
-import logo from '../assets/images/png/Nvidia_logo.png'
-import imghome from '../assets/images/png/imgTrending.png'
+import logo from '../assets/images/webp/Nvidia_logo.webp'
+import imghome from '../assets/images/webp/imgTrending.webp'
 
 const Trending = () => {
     return (

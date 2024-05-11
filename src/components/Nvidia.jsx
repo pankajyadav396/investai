@@ -1,6 +1,6 @@
-import invest from '../assets/images/png/investerImg.png'
-import invest2 from '../assets/images/png/imgCncb.png'
-import invest3 from '../assets/images/png/yahooImg.png'
+import invest from '../assets/images/webp/investerImg.webp'
+import invest2 from '../assets/images/webp/imgCncb.webp'
+import invest3 from '../assets/images/webp/yahooImg.webp'
 import Primarybutton from './common/Primarybutton'
 
 const Nvidia = () => {

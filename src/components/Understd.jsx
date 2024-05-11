@@ -1,7 +1,7 @@
-import men1 from '../assets/images/png/Graphman1.png'
-import men2 from '../assets/images/png/Graphman2.png'
-import graph from '../assets/images/png/imgGraph1.png'
-import graph2 from '../assets/images/png/imgGraph2.png'
+import men1 from '../assets/images/webp/Graphman1.webp'
+import men2 from '../assets/images/webp/Graphman2.webp'
+import graph from '../assets/images/webp/imgGraph1.webp'
+import graph2 from '../assets/images/webp/imgGraph2.webp'
 import Primarybutton from './common/Primarybutton'
 
 const Understd = () => {
